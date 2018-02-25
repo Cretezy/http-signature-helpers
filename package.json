@@ -1,0 +1,32 @@
+{
+	"name": "http-signature-helpers",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"license": "MIT",
+	"author": "Charles Crete <charles@cretezy.com>",
+	"homepage": "https://github.com/Cretezy/http-signature-helpers",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Cretezy/http-signature-helpers.git"
+	},
+	"scripts": {
+		"watch": "noderize-scripts watch",
+		"build": "noderize-scripts build",
+		"start": "noderize-scripts start",
+		"format": "noderize-scripts format",
+		"test": "noderize-scripts test",
+		"clean": "noderize-scripts clean",
+		"prepack":
+			"noderize-scripts clean && noderize-scripts build --env production",
+		"flow": "flow"
+	},
+	"files": ["src", "dist"],
+	"devDependencies": {
+		"@noderize/scripts": "^0.3.16",
+		"flow-bin": "^0.66.0"
+	},
+	"dependencies": {
+		"@noderize/runtime": "^0.3.16",
+		"auth-param-parser": "^0.1.0"
+	}
+}
