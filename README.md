@@ -1,6 +1,6 @@
 # http-signature-helpers
 
-Helpers for the [HTTP Signature spec](https://tools.ietf.org/id/draft-cavage-http-signatures-09.html).
+Helpers for the [HTTP Signature spec](https://tools.ietf.org/id/draft-cavage-http-signatures-10.html).
 
 ## Install
 
@@ -20,7 +20,7 @@ const { getSignatureString, createSignatureHeader, parseSignatureHeader } = requ
 
 ### `getSignatureString(options)`
 
-Get the [signature string](https://tools.ietf.org/id/draft-cavage-http-signatures-09.html#canonicalization) (this is the content to create the signature from).
+Get the [signature string](https://tools.ietf.org/id/draft-cavage-http-signatures-10.html#canonicalization) (this is the content to create the signature from).
 
 Options (object):
 
@@ -71,7 +71,7 @@ body
 
 ### `createSignatureHeader(options)`
 
-Get the [signature header](https://tools.ietf.org/id/draft-cavage-http-signatures-09.html#auth-scheme) to set to `Authorization`.
+Get the [signature header](https://tools.ietf.org/id/draft-cavage-http-signatures-10.html#auth-scheme) to set to `Authorization`.
 
 Options (object):
 
