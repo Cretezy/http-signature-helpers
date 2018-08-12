@@ -11,7 +11,7 @@ npm install http-signature-helpers
 ```
 
 ```js
-import { getSignatureString, createSignatureHeader, parseSignatureHeader } from "http-signature-helpersr";
+import { getSignatureString, createSignatureHeader, parseSignatureHeader } from "http-signature-helpers";
 # or
 const { getSignatureString, createSignatureHeader, parseSignatureHeader } = require("http-signature-helpers");
 ```
