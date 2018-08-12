@@ -1,6 +1,6 @@
 {
 	"name": "http-signature-helpers",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/index.js",
 	"license": "MIT",
 	"author": "Charles Crete <charles@cretezy.com>",
@@ -22,11 +22,11 @@
 	},
 	"files": ["src", "dist"],
 	"devDependencies": {
-		"@noderize/scripts": "^0.3.16",
+		"@noderize/scripts": "^0.7.5",
 		"flow-bin": "^0.66.0"
 	},
 	"dependencies": {
-		"@noderize/runtime": "^0.3.16",
-		"auth-param-parser": "^0.1.0"
+		"@noderize/runtime": "^0.7.5",
+		"auth-param-parser": "^1.0.0"
 	}
 }
