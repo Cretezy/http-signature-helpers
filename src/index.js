@@ -75,7 +75,7 @@ export function getSignatureString({
 	);
 
 	// Add body
-	output.push(body);
+	body && output.push(body);
 
 	return output.join("\n");
 }
